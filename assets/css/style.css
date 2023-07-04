@@ -312,7 +312,7 @@ nav ul > li > ul{
 }
 
 .share_link:last-child > a > p{
-    margin: 0;
+    margin: 5px 0;
     padding: 0;
     line-height: 13px;
 }
@@ -329,8 +329,9 @@ nav ul > li > ul{
     width: 20px;
     background: #fff url('https://i.dailymail.co.uk/i/furniture/articles/spt_socialicons_40x40eachbttn9.png') -832px 0;
     position: absolute;
-    right: 20px;
     bottom: 13px;
+    left: 0;
+    transform: translateX(-100%);
 }
 
 /* -----CONTENT------ */
@@ -592,6 +593,9 @@ nav ul > li > ul{
 
 .news_item img{
     width: 100%;
+}
+img {
+    max-width: 100%;
 }
 .news_item p{
     margin: 5px 0px;
